@@ -35,7 +35,8 @@ To get started with this template:
    cd react-native-firebase-expo-template
    npm install
    ```
-3. Start the Expo project:
+3. Enter your firebase web config 
+4. Start the Expo project:
    ```bash
    npx expo start
    ```
