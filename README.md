@@ -2,7 +2,7 @@
 
 This project is a React Native template created with Expo, featuring support for Firebase authentication and Firestore out of the box. It is an upgraded version of the template originally found at [venits/react-native-firebase-login-template-typescript](https://github.com/venits/react-native-firebase-login-template-typescript/tree/master), updated to work with the latest (2024) version of expo, react naviigation, and react native.
 
-## Example
+## Preview
 
 ![demo](https://github.com/friedice5467/react-native-firebase-expo-template/assets/58054670/c665d2e4-cc90-4f68-b113-ea471e9afe98)
 
