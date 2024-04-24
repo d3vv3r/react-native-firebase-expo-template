@@ -14,11 +14,11 @@ type Props = {
 const Dashboard = ({ navigation }: Props) => (
   <Background>
     <Logo />
-    <Header>Header</Header>
+    <Header>Orders"R"Us</Header>
     <Paragraph>
-      Main App Here
+      Get ready your journey starts here! Easy and quick ordering at your service.  
     </Paragraph>
-    <Button mode="outlined" onPress={() => logoutUser()}>
+    <Button mode="contained" buttonColor="#be2596"  onPress={() => logoutUser()}>
       Logout
     </Button>
   </Background>

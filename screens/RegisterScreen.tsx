@@ -100,6 +100,7 @@ const RegisterScreen = ({ navigation }: Props) => {
       <Button
         loading={loading}
         mode="contained"
+        buttonColor="#be2596" 
         onPress={_onSignUpPressed}
         style={styles.button}
       >

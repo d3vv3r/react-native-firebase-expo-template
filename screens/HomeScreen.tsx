@@ -13,16 +13,18 @@ type Props = {
 const HomeScreen = ({ navigation }: Props) => (
   <Background>
     <Logo />
-    <Header>Firebase Login</Header>
+    <Header>Orders"R"Us Login</Header>
 
     <Paragraph>
-      This template supports Firebase authorization out of the box.
+      Ordering made easy!
     </Paragraph>
-    <Button mode="contained" onPress={() => navigation.navigate("LoginScreen")}>
+    <Button mode="contained" textColor="#ffffff" buttonColor="#be2596" onPress={() => navigation.navigate("LoginScreen")}>
       Login
     </Button>
     <Button
-      mode="outlined"
+      textColor="#ffffff" 
+      mode="contained" 
+      buttonColor="#be2596" 
       onPress={() => navigation.navigate("RegisterScreen")}
     >
       Sign Up
